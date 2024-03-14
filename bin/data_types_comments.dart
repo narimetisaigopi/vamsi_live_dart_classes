@@ -1,5 +1,5 @@
-  /// this is testing documentation
-  double priceAmount = 99.08;
+/// this is testing documentation
+double priceAmount = 99.08;
 void main() {
   print('Hello world: Dart Classes');
   // String
@@ -13,14 +13,14 @@ void main() {
   // first letter should be alphabet or _ (underscore)
   // should not use spaces
 
-
   double _rice2 = 99.08;
   double pizzaPriceActualAmount = 99.08;
   int age = 2482829292929292;
   int rank = 24212;
   int order = 102; // .56010101010101010101010010
+  var orders = "sai";
   print(priceAmount);
-  
+
   // upperCamelCase => for class names
   //String name = "Dart";
   String name = 'ia  skas kasa ska sakskas ask';
@@ -45,7 +45,7 @@ void main() {
   int productPrice = 110;
   print("******");
   print(productPrice < 100);
-  
+
   if (productPrice < 100) {
     // stop here
   } else {
@@ -53,7 +53,7 @@ void main() {
   }
   // thi
   String guestName = "Vamsi";
-  print("Good morning, $guestName, how do you do?");// string interploation
+  print("Good morning, $guestName, how do you do?"); // string interploation
   //print("Good morning, ${10+20}, how do you do?");// string interploation
 
   // comments
