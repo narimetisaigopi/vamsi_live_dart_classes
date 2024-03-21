@@ -1,48 +1,33 @@
 void main() {
-  int _age = 12;
-
-  // object creation syntax
-  Laptop macBook = Laptop();
-  macBook.brand = "Apple";
-  macBook.printMyBrand();
-  print(macBook.brand);
-
-  Laptop xiaomiLaptop = Laptop();
-  xiaomiLaptop.brand = "Xiaomi";
-  print(xiaomiLaptop.brand);
-  xiaomiLaptop.printMyBrand();
+  addNumber(x: 10, y: 9000021222);
+  int res = subtractNumbers(100, 70);
+  print(res);
 }
 
-class Laptop {
-  int? ram;
-  int? graphics;
-  String? brand;
-
-  printMyBrand() {
-    print("My brand is $brand");
-  }
-
-  installApp() {}
+void addNumber({int x = 1, int y = 1}) {
+  int result = x + y;
+  // print("sum of $x and $y is $result");
+  print("$result");
 }
 
-class Bird {
+int subtractNumbers(int x, int y) {
+  int result = x - y;
+  return result;
+}
+
+class Arthamatic {
+  int x = 0;
+  int y = 0;
+
+  add() {}
+  minus() {}
+  divide() {}
+}
+
+class Student {
   String? name;
 
-  fly() {}
-  buildNest() {}
-}
+  getStudentData() {}
 
-// public
-class Employee {
-  int ctc = 0; // default value
-  late int name; // null-safety handling
-  String? sex; // null-safety handling
-
-  // method
-  doWork() {
-    // i am doing
-  }
-  goToOffice() {
-    // going to office
-  }
+  doHomeWork() {}
 }
