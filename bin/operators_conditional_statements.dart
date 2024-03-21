@@ -1,6 +1,6 @@
 import 'package:test/test.dart';
 
-import 'vamsi_live_dart_classes.dart';
+import 'methods_functions_class.dart';
 
 void main() {
   // operators

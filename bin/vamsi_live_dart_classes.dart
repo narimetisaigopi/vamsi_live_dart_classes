@@ -1,33 +1,45 @@
+import 'dart:math';
+
 void main() {
-  addNumber(x: 10, y: 9000021222);
-  int res = subtractNumbers(100, 70);
-  print(res);
+  Operations operations = Operations();
+  operations.summation(a: 2, c: 4, b: 223);
+  // var
+  // dynamic
+  // var age = 24;
+  // print(age);
+  // print(age.runtimeType);
+  // age = 25;
+  // once data assigned we cannot change the data type
+
+  // dynamic name = "Dart";
+  // print(name);
+  // print(name.runtimeType);
+  // name = 2029;
+  // print(name);
+  // print(name.runtimeType);
+  // String? name2;
+  // print(name2);
+  // name2 = "Sai";
+  // print(name2);
+
+  // var vs dynamic
+  // const vs final
+
+  const double piValue = 3.14;
+
+  final int results;
+
+  results = 122;
+
+  //results = 09;
+
+  print(piValue);
 }
 
-void addNumber({int x = 1, int y = 1}) {
-  int result = x + y;
-  // print("sum of $x and $y is $result");
-  print("$result");
-}
-
-int subtractNumbers(int x, int y) {
-  int result = x - y;
-  return result;
-}
-
-class Arthamatic {
-  int x = 0;
-  int y = 0;
-
-  add() {}
-  minus() {}
-  divide() {}
-}
-
-class Student {
-  String? name;
-
-  getStudentData() {}
-
-  doHomeWork() {}
+class Operations {
+  //
+  summation({int a = 0, int b = 0, int c = 0}) {
+    int res = a + b + c;
+    return res;
+  }
 }
