@@ -1,4 +1,5 @@
 import 'constructer_with_classes.dart';
+import 'vamsi_live_dart_classes.dart';
 
 /// this is testing documentation
 double priceAmount = 99.08;
@@ -22,6 +23,7 @@ void main() {
   int order = 102; // .56010101010101010101010010
   var orders = "sai";
   print(priceAmount);
+  // MyConfig.appName = "Some";
 
   // upperCamelCase => for class names
   //String name = "Dart";
@@ -82,6 +84,4 @@ void main() {
    * sa
    * 
    */
-
-  
 }
