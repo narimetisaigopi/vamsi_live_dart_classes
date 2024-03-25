@@ -10,7 +10,7 @@ void main() {
   // homogenious => all same data
   // hetrogenious => differant data types
   // List<String> names2 = ["Gayathi", "Sai", "Vamsi"]; // homogenious
-  List names = ["Gayathi", "Sai", "Vamsi"]; //hetrogenious
+  List names = ["Gayathi", "Sai", "Vamsi"]; // hetrogenious
   // indexing     0          1       2
   names[2] = "Ram";
   names.add("Sham");
